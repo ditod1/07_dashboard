@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Admin Dashboard</title>
 </head>
@@ -12,35 +15,94 @@
 <body>
   <div class="main-cont">
     <div class="header">
-      <div class="top">
+      <div class="search-cont">
         <form action="#" method="get">
-          <input type="submit" value="Search">
+          <label for="search-bar">
+            <img src="./img/magnify.png" alt="Search">
+          </label>
           <input type="text" name="search-bar" id="search-bar">
         </form>
-        <div class="profile">
-          <h4>Morgan Oakley</h4>
-        </div>
       </div>
-      <div class="bot">
-        <div class="greetings">
+      <div class="profile-cont">
+        <div class="logo"><a href="#"><img src="./img/bell.png" alt="Alarms"></a></div>
+        <a href="#"><img src="./img/user1.jpg" alt="User Picture"></a>
+        <h4>Morgan Oakley</h4>
+      </div>
+      <div class="greetings-cont">
+        <a href="#"><img src="./img/user1.jpg" alt="User Picture"></a>
+        <div class="info">
           <p>Hi there,</p>
           <h2>Morgan Oakley (@morgan) </h2>
         </div>
-        <div class="button-cont">
-          <button>New</button>
-          <button>New</button>
-          <button>New</button>
-        </div>
+      </div>
+      <div class="button-cont">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
       </div>
     </div>
     <div class="sidebar">
-      <h1>Dashboard</h1>
+      <a href="#">
+        <img src="./img/dashboard.png" alt="">
+        <h1>Dashboard</h1>
+      </a>
       <ul>
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Messages</li>
-        <li>History</li>
-        <li>Tasks</li>
+        <li>
+          <a href="#">
+            <img src="./img/home.png" alt="">
+            <p>Home</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/account.png" alt="">
+            <p>Profile</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/message.png" alt="">
+            <p>Messages</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/history.png" alt="">
+            <p>History</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/list.png" alt="">
+            <p>Tasks</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/group.png" alt="">
+            <p>Communities</p>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="./img/cog.png" alt="">
+            <p>Settings</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/help.png" alt="">
+            <p>Support</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/shield.png" alt="">
+            <p>Privacy</p>
+          </a>
+        </li>
       </ul>
     </div>
     <div class="content">
@@ -48,43 +110,82 @@
         <h3>Your projects</h3>
         <div class="proj-content">
           <div class="project">
-            <h4>Super cool project</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            </p>
-            <div class="opt"></div>
+            <div class="text-cont">
+              <h4>Super cool project</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                Lorem ipsum dolor sit amet, consecteturpor incididunt
+              </p>
+            </div>
+            <div class="opt">
+              <a href="#"><img src="./img/star-plus-outline.png" alt="Favorite"></a>
+              <a href="#"><img src="./img/eye-plus-outline.png" alt="Add to read list"></a>
+              <a href="#"><img src="./img/share-all-outline.png" alt="Share"></a>
+            </div>
           </div>
           <div class="project">
-            <h4>Less cool</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            </p>
-            <div class="opt"></div>
+            <div class="text-cont">
+              <h4>Super cool project</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                Lorem ipsum dolor sit amet, consecteturpor incididunt
+              </p>
+            </div>
+            <div class="opt">
+              <a href="#"><img src="./img/star-plus-outline.png" alt="Favorite"></a>
+              <a href="#"><img src="./img/eye-plus-outline.png" alt="Add to read list"></a>
+              <a href="#"><img src="./img/share-all-outline.png" alt="Share"></a>
+            </div>
           </div>
           <div class="project">
-            <h4>Impossible</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            </p>
-            <div class="opt"></div>
+            <div class="text-cont">
+              <h4>Super cool project</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                Lorem ipsum dolor sit amet, consecteturpor incididunt
+              </p>
+            </div>
+            <div class="opt">
+              <a href="#"><img src="./img/star-plus-outline.png" alt="Favorite"></a>
+              <a href="#"><img src="./img/eye-plus-outline.png" alt="Add to read list"></a>
+              <a href="#"><img src="./img/share-all-outline.png" alt="Share"></a>
+            </div>
           </div>
           <div class="project">
-            <h4>Easy</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            </p>
-            <div class="opt"></div>
+            <div class="text-cont">
+              <h4>Super cool project</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                Lorem ipsum dolor sit amet, consecteturpor incididunt
+              </p>
+            </div>
+            <div class="opt">
+              <a href="#"><img src="./img/star-plus-outline.png" alt="Favorite"></a>
+              <a href="#"><img src="./img/eye-plus-outline.png" alt="Add to read list"></a>
+              <a href="#"><img src="./img/share-all-outline.png" alt="Share"></a>
+            </div>
           </div>
           <div class="project">
-            <h4>Blocker</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            </p>
-            <div class="opt"></div>
+            <div class="text-cont">
+              <h4>Super cool project</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                Lorem ipsum dolor sit amet, consecteturpor incididunt
+              </p>
+            </div>
+            <div class="opt">
+              <a href="#"><img src="./img/star-plus-outline.png" alt="Favorite"></a>
+              <a href="#"><img src="./img/eye-plus-outline.png" alt="Add to read list"></a>
+              <a href="#"><img src="./img/share-all-outline.png" alt="Share"></a>
+            </div>
           </div>
           <div class="project">
-            <h4>Money maker</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            </p>
-            <div class="opt"></div>
+            <div class="text-cont">
+              <h4>Super cool project</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                Lorem ipsum dolor sit amet, consecteturpor incididunt
+              </p>
+            </div>
+            <div class="opt">
+              <a href="#"><img src="./img/star-plus-outline.png" alt="Favorite"></a>
+              <a href="#"><img src="./img/eye-plus-outline.png" alt="Add to read list"></a>
+              <a href="#"><img src="./img/share-all-outline.png" alt="Share"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -119,21 +220,21 @@
             <a href="#"><img src="./img/user1.jpg" alt="User Image"></a>
             <div class="user-info">
               <p>@andres</p>
-              <p>Hard project</p>
+              <p>Disc</p>
             </div>
           </div>
           <div class="user">
             <a href="#"><img src="./img/user1.jpg" alt="User Image"></a>
             <div class="user-info">
-              <p>@andres</p>
-              <p>Hard project</p>
+              <p>@julian</p>
+              <p>Recipes</p>
             </div>
           </div>
           <div class="user">
             <a href="#"><img src="./img/user1.jpg" alt="User Image"></a>
             <div class="user-info">
-              <p>@andres</p>
-              <p>Hard project</p>
+              <p>@pedro</p>
+              <p>Calculator</p>
             </div>
           </div>
         </div>
